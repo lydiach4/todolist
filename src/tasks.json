@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "title": "Read a book",
+        "title": "Do some shopping",
         "isFinished": false
     },
     {
@@ -11,17 +11,17 @@
     },
     {
         "id": 3,
-        "title": "Play with the kids",
+        "title": "Take out the dog ",
         "isFinished": false
     },
     {
         "id": 4,
-        "title": "Go to the barber",
+        "title": "Go to the salon ",
         "isFinished": false
     },
     {
         "id": 5,
-        "title": "Buy fruits",
+        "title": "Order food",
         "isFinished": true
     }
 ]

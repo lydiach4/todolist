@@ -16,17 +16,17 @@ const TodoForm = ({ addTask }) => {
 
   return (
     <form
-      className="p-5 border border-black flex flex-col gap-1 w-1/5"
+      className="mt-[300px] mx-[300px] p-20 border border-gray-500 flex flex-col "
       onSubmit={submit}
     >
       <input
         type="text"
-        placeholder="Title"
-        className="py-1 px-3 border border-black"
+        placeholder="The task"
+        className="border border-gray-400 p-3  text-xl "
         onChange={(e) => setTitle(e.target.value)}
         value={title}
       />
-      <button className="border border-black bg-transparent px-5 py-1.5 ">
+      <button className=" border border-gray-600 m-4 p-2 text-lg bg-black text-white w-[200px] ">
         Add
       </button>
     </form>
